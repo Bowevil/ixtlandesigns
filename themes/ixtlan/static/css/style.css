@@ -221,6 +221,40 @@ main {
   margin: 0.2rem;
 }
 
+/* Audio tracks */
+.audio-track {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.audio-track .track-title {
+  min-width: 250px;
+  font-weight: 500;
+}
+
+.audio-track audio {
+  flex: 1;
+  max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .audio-track {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .audio-track .track-title {
+    min-width: unset;
+  }
+  .audio-track audio {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 /* Footer */
 footer {
   background: #222;

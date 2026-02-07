@@ -25,7 +25,7 @@ canonifyURLs = true
     weight = 3
   [[menu.main]]
     name = "Sounds"
-    url = "https://soundcloud.com/ixtlandesigns"
+    url = "/sounds/"
     weight = 4
 
 [markup]
