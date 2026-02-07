@@ -1,7 +1,8 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://bowevil.github.io/ixtlandesigns/'
 languageCode = 'en-us'
 title = 'Ixtlan Designs'
 theme = 'ixtlan'
+canonifyURLs = true
 
 [params]
   description = "Efficient Impeccable Development and Design"
