@@ -1,0 +1,9 @@
+<div class="sc-group">
+  <div class="sc-group-artwork">
+    <img src="{{ .Get "img" | absURL }}" alt="{{ .Get "title" }}">
+  </div>
+  <div class="sc-group-title">{{ .Get "title" }}</div>
+  <div class="sc-group-tracks">
+    {{ .Inner }}
+  </div>
+</div>

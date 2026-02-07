@@ -58,7 +58,110 @@
   text-align: center;
 }
 
-/* SoundCloud-inspired audio player */
+/* ============================
+   Audio Group Layout
+   ============================ */
+
+.sc-group {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  background: #111;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sc-group-artwork {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.sc-group-artwork img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.sc-group-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding: 16px 24px 8px;
+  border-bottom: 1px solid #222;
+}
+
+.sc-group-tracks {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tracks inside a group - compact style, no individual artwork */
+.sc-group-tracks .sc-track {
+  border-radius: 0;
+  padding: 10px 24px;
+  gap: 14px;
+  align-items: center;
+  max-width: none;
+}
+
+.sc-group-tracks .sc-track:last-child {
+  border-bottom: none;
+}
+
+.sc-group-tracks .sc-title {
+  font-size: 15px;
+}
+
+.sc-group-tracks .sc-player {
+  margin-top: 4px;
+}
+
+.sc-group-tracks .sc-player audio {
+  height: 32px;
+}
+
+/* ============================
+   Inline play button (no artwork)
+   ============================ */
+
+.sc-play-inline {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+  border-radius: 50%;
+  transition: background 0.15s ease;
+}
+
+.sc-play-inline svg {
+  width: 20px;
+  height: 20px;
+  color: #f50;
+}
+
+.sc-track:hover .sc-play-inline {
+  background: #333;
+}
+
+.sc-play-inline .sc-icon-pause {
+  display: none;
+}
+
+.sc-track.playing .sc-play-inline .sc-icon-play {
+  display: none;
+}
+
+.sc-track.playing .sc-play-inline .sc-icon-pause {
+  display: block;
+}
+
+/* ============================
+   Standalone track (with artwork)
+   ============================ */
 
 .sc-track {
   display: flex;
@@ -73,19 +176,6 @@
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.sc-track:first-of-type {
-  border-radius: 4px 4px 0 0;
-}
-
-.sc-track:last-of-type {
-  border-radius: 0 0 4px 4px;
-  border-bottom: none;
-}
-
-.sc-track:only-of-type {
-  border-radius: 4px;
 }
 
 .sc-track:hover {
@@ -179,7 +269,7 @@
   border-radius: 0;
 }
 
-/* Style the native audio controls to be more SoundCloud-like */
+/* Style the native audio controls */
 .sc-player audio::-webkit-media-controls-panel {
   background: #1a1a1a;
 }
@@ -190,34 +280,42 @@
   font-size: 11px;
 }
 
-/* Sounds page wrapper - dark background */
-.article-content:has(.sc-track) {
+/* Sounds page wrapper */
+.article-content:has(.sc-group) {
   background: transparent;
 }
 
-.article-content:has(.sc-track) > p:first-of-type {
+.article-content:has(.sc-group) > p:first-of-type {
   color: #ccc;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 480px) {
-  .sc-track {
-    padding: 10px 12px;
-    gap: 12px;
+  .sc-group-artwork img {
+    height: 180px;
   }
 
-  .sc-artwork,
-  .sc-artwork img {
-    width: 60px;
-    height: 60px;
+  .sc-group-tracks .sc-track {
+    padding: 8px 12px;
+    gap: 10px;
   }
 
-  .sc-title {
-    font-size: 14px;
+  .sc-group-tracks .sc-title {
+    font-size: 13px;
   }
 
-  .sc-player audio {
+  .sc-group-tracks .sc-player audio {
     height: 28px;
+  }
+
+  .sc-play-inline {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sc-play-inline svg {
+    width: 16px;
+    height: 16px;
   }
 }

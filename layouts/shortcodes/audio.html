@@ -7,10 +7,14 @@
       <svg class="sc-icon-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>
     </div>
   </div>
+  {{ else }}
+  <div class="sc-play-inline">
+    <svg class="sc-icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+    <svg class="sc-icon-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>
+  </div>
   {{ end }}
   <div class="sc-info">
     <div class="sc-title">{{ .Get "title" }}</div>
-    <div class="sc-artist">Ixtlan Designs</div>
     <div class="sc-player">
       <audio controls preload="none" onclick="event.stopPropagation()"
         onplay="document.querySelectorAll('.sc-track audio').forEach(function(o){if(o!==this){o.pause()}}.bind(this));this.closest('.sc-track').classList.add('playing')"
