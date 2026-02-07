@@ -1,0 +1,6 @@
+name = "Ixtlan"
+license = "MIT"
+description = "Custom theme for Ixtlan Designs Hugo migration"
+
+[author]
+  name = "Ixtlan Designs"

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="page-content">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.author }}
+  <div class="page-meta">
+    By {{ . }} &middot; {{ $.Date.Format "January 2, 2006" }}
+    {{ with $.Params.tags }}
+    &middot; Tags:
+    {{ range . }}<a href="{{ absURL (printf "tags/%s/" (. | urlize)) }}">{{ . }}</a> {{ end }}
+    {{ end }}
+  </div>
+  {{ else }}
+  <div class="page-meta">{{ .Date.Format "January 2, 2006" }}</div>
+  {{ end }}
+  {{ .Content }}
+</article>
+{{ end }}
