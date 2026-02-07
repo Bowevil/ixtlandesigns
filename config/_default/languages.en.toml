@@ -1,0 +1,17 @@
+disabled = false
+languageCode = "en-us"
+languageName = "English"
+weight = 1
+title = "Ixtlan Designs"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Efficient Impeccable Development and Design"
+  copyright = "2015 Ixtlan Designs"
+
+[params.author]
+  name = "Ixtlan Designs"
+  email = "info@ixtlandesigns.com"

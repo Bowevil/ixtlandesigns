@@ -1,0 +1,19 @@
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
+  name = "Cardistry"
+  pageRef = "ionrot"
+  weight = 2
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 3
+
+[[main]]
+  name = "Sounds"
+  pageRef = "sounds"
+  weight = 4

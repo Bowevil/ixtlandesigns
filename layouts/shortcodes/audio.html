@@ -1,0 +1,23 @@
+<div class="sc-track" onclick="var a=this.querySelector('audio'); if(a.paused){document.querySelectorAll('.sc-track audio').forEach(function(o){if(o!==a){o.pause()}});a.play()}else{a.pause()}">
+  {{ with .Get "img" }}
+  <div class="sc-artwork">
+    <img src="{{ . | absURL }}" alt="{{ $.Get "title" }}">
+    <div class="sc-play-btn">
+      <svg class="sc-icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg class="sc-icon-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>
+    </div>
+  </div>
+  {{ end }}
+  <div class="sc-info">
+    <div class="sc-title">{{ .Get "title" }}</div>
+    <div class="sc-artist">Ixtlan Designs</div>
+    <div class="sc-player">
+      <audio controls preload="none" onclick="event.stopPropagation()"
+        onplay="document.querySelectorAll('.sc-track audio').forEach(function(o){if(o!==this){o.pause()}}.bind(this));this.closest('.sc-track').classList.add('playing')"
+        onpause="this.closest('.sc-track').classList.remove('playing')">
+        <source src="{{ .Get "src" | absURL }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+</div>

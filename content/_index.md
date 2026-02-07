@@ -16,6 +16,10 @@ description: "Fully customized CMS, LMS, Drupal design and development solutions
 
 ![Custom content management software solutions](/images/cus.png)
 
+### for your business needs
+
+![for your business needs](/images/bus.png)
+
 We are all unique and need to express ourselves in unique ways. It is the same with any digital endeavor; creating a social awareness, selling a product, offering a service or simplifying a business process, each will be unique.
 
 We utilize secure, open-source extendable framework for less digital ontogenesis and more personification.
@@ -23,10 +27,6 @@ We utilize secure, open-source extendable framework for less digital ontogenesis
 > Fully customized solutions for your unique endeavor.
 >
 > Break from the herd and emerge with your unique flair.
-
-### for your business needs
-
-![for your business needs](/images/bus.png)
 
 ## Clients
 

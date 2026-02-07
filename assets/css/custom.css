@@ -1,0 +1,223 @@
+/* Center all body content */
+#main-content > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-content > article > header {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+#main-content > article > section {
+  width: 100%;
+  justify-content: center;
+}
+
+#main-content > article > section > div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-content > article > footer {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-content {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.max-w-prose {
+  max-width: 900px !important;
+}
+
+.prose {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose ul, .prose ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose blockquote {
+  text-align: center;
+}
+
+/* SoundCloud-inspired audio player */
+
+.sc-track {
+  display: flex;
+  align-items: stretch;
+  background: #111;
+  border-bottom: 1px solid #222;
+  padding: 16px 24px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sc-track:first-of-type {
+  border-radius: 4px 4px 0 0;
+}
+
+.sc-track:last-of-type {
+  border-radius: 0 0 4px 4px;
+  border-bottom: none;
+}
+
+.sc-track:only-of-type {
+  border-radius: 4px;
+}
+
+.sc-track:hover {
+  background: #1a1a1a;
+}
+
+.sc-track:hover .sc-play-btn {
+  opacity: 1;
+}
+
+.sc-artwork {
+  position: relative;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+}
+
+.sc-artwork img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+.sc-play-btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.sc-play-btn svg {
+  width: 36px;
+  height: 36px;
+  color: #f50;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.4));
+}
+
+.sc-icon-pause {
+  display: none;
+}
+
+.sc-track.playing .sc-icon-play {
+  display: none;
+}
+
+.sc-track.playing .sc-icon-pause {
+  display: block;
+}
+
+.sc-track.playing .sc-play-btn {
+  opacity: 1;
+}
+
+.sc-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  gap: 2px;
+}
+
+.sc-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sc-artist {
+  font-size: 14px;
+  color: #999;
+}
+
+.sc-player {
+  margin-top: 6px;
+}
+
+.sc-player audio {
+  width: 100%;
+  height: 40px;
+  border-radius: 0;
+}
+
+/* Style the native audio controls to be more SoundCloud-like */
+.sc-player audio::-webkit-media-controls-panel {
+  background: #1a1a1a;
+}
+
+.sc-player audio::-webkit-media-controls-current-time-display,
+.sc-player audio::-webkit-media-controls-time-remaining-display {
+  color: #999;
+  font-size: 11px;
+}
+
+/* Sounds page wrapper - dark background */
+.article-content:has(.sc-track) {
+  background: transparent;
+}
+
+.article-content:has(.sc-track) > p:first-of-type {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .sc-track {
+    padding: 10px 12px;
+    gap: 12px;
+  }
+
+  .sc-artwork,
+  .sc-artwork img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sc-title {
+    font-size: 14px;
+  }
+
+  .sc-player audio {
+    height: 28px;
+  }
+}
