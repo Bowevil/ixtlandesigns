@@ -1,55 +1,52 @@
-colorScheme = "blowfish"
-defaultAppearance = "light"
+# -- Theme Options --
+colorScheme = "congo"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+enableImageLazyLoading = true
+enableImageWebp = true
 
-disableImageOptimization = false
-disableTextInHeader = false
-
-fingerprintAlgorithm = "sha512"
+fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "basic"
+  showTitle = true
 
 [footer]
-  showMenu = true
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
+  layout = "page"
   showRecent = false
-  showRecentItems = 5
-  showMoreLink = false
-  cardView = false
 
 [article]
   showDate = true
   showAuthor = true
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showHeadingAnchors = true
   showPagination = true
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
-  showWordCount = true
+  showWordCount = false
+  showComments = false
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
-  showTableOfContents = false
-  groupByYear = true
-  cardView = false
+  showTableOfContents = true
+  showTaxonomies = false
+  groupByYear = false
+  paginationWidth = 1
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
   showTermCount = true
-  showBreadcrumbs = false
-
-[term]
-  showBreadcrumbs = false
-  groupByYear = false

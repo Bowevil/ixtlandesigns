@@ -1,10 +1,14 @@
 ---
-title: "Sounds"
-date: 2012-05-23
-description: "Original music and sound design by Ixtlan Designs"
+title: "Original Music & Sound Design"
+date: 2026-02-08
+description: "Original music and sound design portfolio by Michael Tripp"
 ---
 
-Original music and sound design by Michael Tripp.
+## Original Compositions & Sound Design
+
+A collection of original music and sound design work. These pieces represent years of creative exploration across genres and mediums—from game soundtracks to ambient music to interactive audio experiences.
+
+**Composed and produced by Michael Tripp**
 
 {{< audio-group title="Collection One" img="sounds/artwork/Kats on a hot tin hat.jpg" >}}
 {{< audio title="Kats on a hot tin hat" src="sounds/Kats on a hot tin hat.mp3" >}}

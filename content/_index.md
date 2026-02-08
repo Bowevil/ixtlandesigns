@@ -1,34 +1,27 @@
 ---
-title: "Ixtlan Designs - Efficient Impeccable Development and Design"
-date: 2018-03-22
-description: "Fully customized CMS, LMS, Drupal design and development solutions for your unique endeavor."
+title: "Ixtlan Designs - Custom Web Development & Design"
+date: 2026-02-08
+description: "Custom web development, design, and digital solutions for businesses ready to stand out."
 ---
 
-### Efficient
+## Custom Web Solutions Built for Your Business
 
-![Efficient](/images/eff.png)
+We create custom digital experiences tailored to your unique needs. Whether you need a content management system, web application, or complete digital strategy, we design solutions that work as hard as you do.
 
-### Impeccable
+## What We Do
 
-![Impeccable](/images/imp.png)
+**Web Development**
+Custom-built web applications and sites using modern, open-source technologies. We go beyond templates to create solutions that solve your specific business challenges.
 
-### Custom content management software solutions
+**CMS & Content Management**
+Flexible content management systems designed for your workflow, not the other way around. Manage your content your way.
 
-![Custom content management software solutions](/images/cus.png)
+**Digital Strategy & Design**
+From concept to launch, we help you think through your digital presence and build something that truly represents your brand.
 
-### for your business needs
+## Recent Work
 
-![for your business needs](/images/bus.png)
-
-We are all unique and need to express ourselves in unique ways. It is the same with any digital endeavor; creating a social awareness, selling a product, offering a service or simplifying a business process, each will be unique.
-
-We utilize secure, open-source extendable framework for less digital ontogenesis and more personification.
-
-> Fully customized solutions for your unique endeavor.
->
-> Break from the herd and emerge with your unique flair.
-
-## Clients
+We've partnered with organizations including:
 
 - Parents Helping Parents
 - O&G Industries, Inc.
@@ -36,8 +29,6 @@ We utilize secure, open-source extendable framework for less digital ontogenesis
 - Kratos Learning Solutions
 - New Opportunities, Inc.
 
-## Contact us
+> "Break from the herd and emerge with your unique flair." — Ixtlan Designs
 
-Phone: [(321) 345-3001](tel:3213453001)
-
-Email: [info@ixtlandesigns.com](mailto:info@ixtlandesigns.com)
+Ready to build something unique? [Get in touch](/contact)

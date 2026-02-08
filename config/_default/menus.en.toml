@@ -1,19 +1,29 @@
 [[main]]
   name = "Home"
-  pageRef = "/"
-  weight = 1
+  url = "/"
+  weight = 10
+
+[[main]]
+  name = "Services"
+  url = "/services"
+  weight = 20
+
+[[main]]
+  name = "Portfolio"
+  url = "/portfolio"
+  weight = 30
 
 [[main]]
   name = "Cardistry"
-  pageRef = "ionrot"
-  weight = 2
-
-[[main]]
-  name = "Blog"
-  pageRef = "blog"
-  weight = 3
+  url = "/ionrot"
+  weight = 40
 
 [[main]]
   name = "Sounds"
-  pageRef = "sounds"
-  weight = 4
+  url = "/sounds"
+  weight = 50
+
+[[main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 60

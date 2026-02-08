@@ -1,16 +1,10 @@
-disabled = false
 languageCode = "en-us"
 languageName = "English"
-weight = 1
 title = "Ixtlan Designs"
+weight = 1
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
-  rtl = false
-  dateFormat = "2 January 2006"
-  description = "Efficient Impeccable Development and Design"
-  copyright = "2015 Ixtlan Designs"
+  description = "Custom web development, design, and digital solutions for businesses"
 
 [params.author]
   name = "Ixtlan Designs"
