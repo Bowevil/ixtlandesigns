@@ -8,6 +8,18 @@ description: "Web development, design, and digital solutions"
 
 We specialize in creating digital solutions that work the way you do. No cookie-cutter templates—just tailored systems designed for your specific needs.
 
+## Hugo Migration Services - NEW!
+
+**Is your WordPress site costing too much?** Migrate to Hugo for lightning-fast performance, 90% lower hosting costs, and zero maintenance overhead.
+
+We specialize in migrating websites from expensive CMS platforms (WordPress, Drupal, Joomla) to Hugo—a modern, fast, secure static site generator. We've done it for our own agency with outstanding results, and we can do it for you.
+
+Whether you need a simple Starter migration or a fully custom Enterprise solution, we have pricing that works for your business.
+
+[Learn more about Hugo migrations →](/hugo-migration) | [See pricing →](/hugo-migration/pricing)
+
+---
+
 ## Web Development
 
 **Modern, maintainable code** that scales with your business. We build web applications using open-source technologies you can trust, ensuring your investment is protected and your site can grow.

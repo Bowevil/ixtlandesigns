@@ -8,6 +8,21 @@ description: "Custom web development, design, and digital solutions for business
 
 We create custom digital experiences tailored to your unique needs. Whether you need a content management system, web application, or complete digital strategy, we design solutions that work as hard as you do.
 
+## Featured: Hugo Migration Services
+
+**Is your WordPress site costing too much?** Migrate to Hugo and save thousands annually while improving performance and security.
+
+We specialize in migrating websites from WordPress, Drupal, and other CMS platforms to Hugo. We've done it for our own agency with remarkable results—now we help other businesses do the same.
+
+- ⚡ 10x faster load times
+- 💰 90% lower hosting costs
+- 🔒 Enterprise-grade security
+- 🚀 Modern tech stack
+
+[Learn about Hugo migration services →](/hugo-migration)
+
+---
+
 ## What We Do
 
 **Web Development**
