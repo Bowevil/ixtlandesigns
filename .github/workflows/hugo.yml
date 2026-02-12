@@ -4,6 +4,8 @@ on:
   push:
     branches: ["master"]
   workflow_dispatch:
+  repository_dispatch:
+    types: [payload-content-updated]
 
 permissions:
   contents: read
@@ -32,6 +34,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install
+      - name: Fetch Payload CMS content
+        env:
+          PAYLOAD_API_URL: ${{ secrets.PAYLOAD_API_URL }}
+        run: npm run fetch-content
+        continue-on-error: true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
