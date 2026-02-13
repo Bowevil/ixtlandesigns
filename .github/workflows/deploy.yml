@@ -42,6 +42,7 @@ jobs:
         run: npm run fetch-content
         env:
           PAYLOAD_API_URL: ${{ secrets.PAYLOAD_API_URL }}
+        continue-on-error: true
 
       - name: Build Hugo
         run: hugo --minify
