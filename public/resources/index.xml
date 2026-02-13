@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources &amp; Articles - Web Development &amp; Hugo on Ixtlan Designs</title><link>https://bowevil.github.io/ixtlandesigns/resources/</link><description>Recent content in Resources &amp; Articles - Web Development &amp; Hugo on Ixtlan Designs</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ixtlandesigns.com (Ixtlan Designs)</managingEditor><webMaster>info@ixtlandesigns.com (Ixtlan Designs)</webMaster><lastBuildDate/><atom:link href="https://bowevil.github.io/ixtlandesigns/resources/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources &amp; Articles - Web Development &amp; Hugo on Ixtlan Designs</title>
+    <link>https://bowevil.github.io/ixtlandesigns/resources/</link>
+    <description>Recent content in Resources &amp; Articles - Web Development &amp; Hugo on Ixtlan Designs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>info@ixtlandesigns.com (Ixtlan Designs)</managingEditor>
+    <webMaster>info@ixtlandesigns.com (Ixtlan Designs)</webMaster>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://bowevil.github.io/ixtlandesigns/resources/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Ixtlan Designs</title><link>https://bowevil.github.io/ixtlandesigns/tags/</link><description>Recent content in Tags on Ixtlan Designs</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ixtlandesigns.com (Ixtlan Designs)</managingEditor><webMaster>info@ixtlandesigns.com (Ixtlan Designs)</webMaster><lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bowevil.github.io/ixtlandesigns/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing</title><link>https://bowevil.github.io/ixtlandesigns/tags/testing/</link><pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author><guid>https://bowevil.github.io/ixtlandesigns/tags/testing/</guid><description/></item><item><title>Cms</title><link>https://bowevil.github.io/ixtlandesigns/tags/cms/</link><pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author><guid>https://bowevil.github.io/ixtlandesigns/tags/cms/</guid><description/></item><item><title>Getting-Started</title><link>https://bowevil.github.io/ixtlandesigns/tags/getting-started/</link><pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author><guid>https://bowevil.github.io/ixtlandesigns/tags/getting-started/</guid><description/></item><item><title>Web-Design</title><link>https://bowevil.github.io/ixtlandesigns/tags/web-design/</link><pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author><guid>https://bowevil.github.io/ixtlandesigns/tags/web-design/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ixtlan Designs</title>
+    <link>https://bowevil.github.io/ixtlandesigns/tags/</link>
+    <description>Recent content in Tags on Ixtlan Designs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>info@ixtlandesigns.com (Ixtlan Designs)</managingEditor>
+    <webMaster>info@ixtlandesigns.com (Ixtlan Designs)</webMaster>
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bowevil.github.io/ixtlandesigns/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing</title>
+      <link>https://bowevil.github.io/ixtlandesigns/tags/testing/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
+      <guid>https://bowevil.github.io/ixtlandesigns/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cms</title>
+      <link>https://bowevil.github.io/ixtlandesigns/tags/cms/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
+      <guid>https://bowevil.github.io/ixtlandesigns/tags/cms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Getting-Started</title>
+      <link>https://bowevil.github.io/ixtlandesigns/tags/getting-started/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
+      <guid>https://bowevil.github.io/ixtlandesigns/tags/getting-started/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Design</title>
+      <link>https://bowevil.github.io/ixtlandesigns/tags/web-design/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
+      <guid>https://bowevil.github.io/ixtlandesigns/tags/web-design/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
