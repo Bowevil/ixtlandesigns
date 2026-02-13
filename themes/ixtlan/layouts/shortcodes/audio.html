@@ -1,7 +1,10 @@
 <div class="audio-track">
-  <span class="track-title">{{ .Get "title" }}</span>
-  <audio controls preload="none">
-    <source src="{{ .Get "src" | absURL }}" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+  {{ with .Get "img" }}<img src="{{ . | absURL }}" alt="{{ $.Get "title" }}" class="track-artwork">{{ end }}
+  <div class="track-info">
+    <span class="track-title">{{ .Get "title" }}</span>
+    <audio controls preload="none">
+      <source src="{{ .Get "src" | absURL }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
 </div>

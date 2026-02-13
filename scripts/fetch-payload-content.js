@@ -81,29 +81,59 @@ ${convertRichTextToMarkdown(post.content)}
   console.log(`  ✓ Created: ${type}/${fileName}`);
 }
 
+function cleanupOrphanedFiles(contentDir, keepSlugs) {
+  // Delete markdown files that are no longer in CMS
+  // Keep: _index.md and files that match CMS slugs
+  const fullPath = path.join(__dirname, `../content/${contentDir}`);
+
+  if (!fs.existsSync(fullPath)) return;
+
+  const files = fs.readdirSync(fullPath);
+  files.forEach(file => {
+    if (file === '_index.md') return; // Always keep section index
+    if (!file.endsWith('.md')) return; // Only check markdown files
+
+    const slug = file.replace('.md', '');
+    if (!keepSlugs.includes(slug)) {
+      const filePath = path.join(fullPath, file);
+      fs.unlinkSync(filePath);
+      console.log(`  ✗ Deleted: ${contentDir}/${file} (no longer in CMS)`);
+    }
+  });
+}
+
 async function main() {
   console.log('\n🚀 Fetching content from Payload CMS...\n');
 
   // Fetch blog posts
   console.log('📝 Blog Posts:');
   const blogPosts = await fetchFromPayload('blog-posts');
+  const blogSlugs = [];
   for (const post of blogPosts) {
     await convertToMarkdown(post, 'blog');
+    blogSlugs.push(post.slug);
   }
+  cleanupOrphanedFiles('blog', blogSlugs);
 
   // Fetch case studies
   console.log('\n📊 Case Studies:');
   const caseStudies = await fetchFromPayload('case-studies');
+  const caseSlugs = [];
   for (const study of caseStudies) {
     await convertToMarkdown(study, 'hugo-migration/case-studies');
+    caseSlugs.push(study.slug);
   }
+  cleanupOrphanedFiles('hugo-migration/case-studies', caseSlugs);
 
   // Fetch resources
   console.log('\n📚 Resources:');
   const resources = await fetchFromPayload('resources');
+  const resourceSlugs = [];
   for (const resource of resources) {
     await convertToMarkdown(resource, 'resources');
+    resourceSlugs.push(resource.slug);
   }
+  cleanupOrphanedFiles('resources', resourceSlugs);
 
   console.log('\n✅ Content fetch complete!\n');
 }

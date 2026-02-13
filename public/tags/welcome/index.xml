@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome on Ixtlan Designs</title>
-    <link>https://bowevil.github.io/ixtlandesigns/tags/welcome/</link>
+    <link>http://localhost:1313/ixtlandesigns/tags/welcome/</link>
     <description>Recent content in Welcome on Ixtlan Designs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>info@ixtlandesigns.com (Ixtlan Designs)</managingEditor>
     <webMaster>info@ixtlandesigns.com (Ixtlan Designs)</webMaster>
     <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bowevil.github.io/ixtlandesigns/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ixtlandesigns/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to Ixtlan Designs</title>
-      <link>https://bowevil.github.io/ixtlandesigns/blog/welcome-to-ixtlan/</link>
+      <link>http://localhost:1313/ixtlandesigns/blog/welcome-to-ixtlan/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
-      <guid>https://bowevil.github.io/ixtlandesigns/blog/welcome-to-ixtlan/</guid>
+      <guid>http://localhost:1313/ixtlandesigns/blog/welcome-to-ixtlan/</guid>
       <description></description>
     </item>
   </channel>
