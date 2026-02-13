@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources &amp; Articles - Web Development &amp; Hugo on Ixtlan Designs</title>
+    <link>https://bowevil.github.io/ixtlandesigns/resources/</link>
+    <description>Recent content in Resources &amp; Articles - Web Development &amp; Hugo on Ixtlan Designs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>info@ixtlandesigns.com (Ixtlan Designs)</managingEditor>
+    <webMaster>info@ixtlandesigns.com (Ixtlan Designs)</webMaster>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bowevil.github.io/ixtlandesigns/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo vs WordPress: Total Cost of Ownership Analysis</title>
+      <link>https://bowevil.github.io/ixtlandesigns/resources/hugo-vs-wordpress-cost/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
+      <guid>https://bowevil.github.io/ixtlandesigns/resources/hugo-vs-wordpress-cost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Why Migrate from WordPress to Hugo? 5 Compelling Reasons</title>
+      <link>https://bowevil.github.io/ixtlandesigns/resources/why-migrate-from-wordpress/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
+      <guid>https://bowevil.github.io/ixtlandesigns/resources/why-migrate-from-wordpress/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

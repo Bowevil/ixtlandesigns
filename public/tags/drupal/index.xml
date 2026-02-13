@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal on Ixtlan Designs</title>
+    <link>https://bowevil.github.io/ixtlandesigns/tags/drupal/</link>
+    <description>Recent content in Drupal on Ixtlan Designs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>info@ixtlandesigns.com (Ixtlan Designs)</managingEditor>
+    <webMaster>info@ixtlandesigns.com (Ixtlan Designs)</webMaster>
+    <lastBuildDate>Wed, 13 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bowevil.github.io/ixtlandesigns/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drupal Job Market 2014 Report</title>
+      <link>https://bowevil.github.io/ixtlandesigns/blog/drupal-job-market-2014-report/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate><author>info@ixtlandesigns.com (Ixtlan Designs)</author>
+      <guid>https://bowevil.github.io/ixtlandesigns/blog/drupal-job-market-2014-report/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
