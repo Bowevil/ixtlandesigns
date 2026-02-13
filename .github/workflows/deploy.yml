@@ -1,11 +1,7 @@
 name: Build and Deploy Hugo Site
 
 on:
-  push:
-    branches: [ master ]
-  schedule:
-    - cron: '0 * * * *'  # Fetch new content every hour
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:  # Allow manual trigger only
 
 permissions:
   contents: read
