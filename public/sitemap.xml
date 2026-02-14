@@ -7,12 +7,8 @@
     
   
     
-  
-    
-  
-    
       <url>
-            <loc>http://localhost:1313/ixtlandesigns/blog/future-web-development-ai/</loc>
+            <loc>http://localhost:1313/ixtlandesigns/blog/mobile-test/</loc>
             <lastmod>2026-02-14T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -23,8 +19,8 @@
   
     
       <url>
-            <loc>http://localhost:1313/ixtlandesigns/blog/mobil-test/</loc>
-            <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/ixtlandesigns/blog/future-web-development-ai/</loc>
+            <lastmod>2026-02-14T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -140,6 +136,8 @@
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
+    
+  
     
   
     
