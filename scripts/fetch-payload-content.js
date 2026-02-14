@@ -62,7 +62,7 @@ function convertRichTextToMarkdown(richText) {
 async function convertToMarkdown(post, type) {
   const frontmatter = `---
 title: "${post.title.replace(/"/g, '\\"')}"
-date: ${new Date(post.date).toISOString().split('T')[0]}
+date: ${post.date ? new Date(post.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0]}
 description: "${(post.description || '').replace(/"/g, '\\"')}"
 slug: "${post.slug}"
 source: payload
